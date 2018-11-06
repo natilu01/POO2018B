@@ -7,7 +7,7 @@ package pryfraccion;
 
 /**
  *
- * @author ESFOT
+ * @author Estudiante
  */
 public class PryFraccion {
 
@@ -16,6 +16,10 @@ public class PryFraccion {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        //variable de tipo ventana
+        WinFraccion ventana;
+        ventana=new WinFraccion();
+        ventana.setVisible(true);
     }
     
 }
